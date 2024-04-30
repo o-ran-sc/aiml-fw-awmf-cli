@@ -1,0 +1,49 @@
+---
+project: 'aiml_fw_awmf_cli'
+project_creation_date: '2024-04-24'
+project_category: ''
+lifecycle_state: 'Incubation'
+project_lead: &oran_aiml_fw_awmf_cli_ptl
+    name: 'Subhash Kumar Singh'
+    email: 'subh.singh@samsung.com'
+    id: 'subhash_singh'
+    company: 'Samsung Electronics'
+    timezone: 'Asia/Kolkata'
+primary_contact: *oran_aiml_fw_awmf_cli_ptl
+issue_tracking:
+    type: 'jira'
+    url: 'https://jira.o-ran-sc.org/projects/AIMLFW'
+    key: 'AIMLFW'
+mailing_list:
+    type: 'groups.io'
+    url: 'technical-discuss@lists.o-ran-sc.org'
+    tag: '[]'
+realtime_discussion:
+    type: 'irc'
+    server: 'freenode.net'
+    channel: '#oran'
+meetings:
+    - type: 'gotomeeting+irc'
+      agenda: 'https://wiki.o-ran-sc.org/display/'
+      url: ''
+      server: 'freenode.net'
+      channel: '#oran'
+      repeats: ''
+      time: ''
+repositories:
+    - aiml-fw/awmf/cli
+committers:
+    - <<: *oran_aiml_fw_awmf_cli_ptl
+    - name: 'Rajdeep Singh'
+      email: 'rajdeep.sin@samsung.com'
+      company: 'Samsung Electronics'
+      id: 'rajdeep11'
+      timezone: 'Asia/Seoul'
+
+tsc:
+    # yamllint disable rule:line-length
+    approval: 'https://lists.o-ran-sc.org/g/toc/message/1024'
+    changes:
+        - type: ''
+          name: ''
+          link: ''
